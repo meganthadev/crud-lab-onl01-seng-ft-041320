@@ -5,6 +5,11 @@ class RestaurantInput extends Component {
    constructor(props) {
     super(props);
     
+    this.state = {
+      text: ''
+    };
+  };
+  
   render() {
     return (
       <div>
