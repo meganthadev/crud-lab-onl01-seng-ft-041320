@@ -26,8 +26,9 @@ class RestaurantInput extends Component {
   
   render() {
     return (
-      <form onSubmit={(event) => this.handleOnSubmit(event)}>
-      <div>
+     <div>
+     <form onSubmit={(event) => this.handleOnSubmit(event)}>
+      
         Restaurant Input
       </div>
     );
