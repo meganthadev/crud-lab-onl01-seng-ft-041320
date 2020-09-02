@@ -14,7 +14,7 @@ handleOnClick = () => {
         <li>
           {review.text}
         </li>
-        <button> X </button>
+        <button onClick={this.handleOnClick}> x </button>
       </div>
     );
   }
